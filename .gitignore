@@ -1,0 +1,7 @@
+*.exe
+*.obj
+*lst
+
+/.vscode
+/asmbook
+/Irvine

@@ -19,7 +19,7 @@ This file provides setup instructions for the project in this folder.
    ```
 3. Link the object file to create an executable:
    ```powershell
-   link AddSub.obj
+   C:\masm32\bin\link /SUBSYSTEM:CONSOLE /LIBPATH:C:\masm32\lib AddSub.obj Irvine32.lib kernel32.lib user32.lib
    ```
 4. Run the executable:
    ```powershell
