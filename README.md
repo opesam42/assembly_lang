@@ -28,7 +28,9 @@ This file provides setup instructions for the project in this folder.
 
 ## Simple Steps
 1. Run this command
+   ```powershell
    .\make AddSub
+   ```
    *No need to put to  extension*
 
 ## Notes
