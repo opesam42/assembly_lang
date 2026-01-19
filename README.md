@@ -7,7 +7,7 @@ This file provides setup instructions for the project in this folder.
 - PowerShell (default shell)
 - An assembler (e.g., MASM, TASM, NASM) installed
 
-## Steps
+## Steps [Let take AddSub.asm as an example]
 1. Open PowerShell in this directory.
 2. Assemble your `.asm` file using your assembler. Example for MASM:
    ```powershell
@@ -25,6 +25,11 @@ This file provides setup instructions for the project in this folder.
    ```powershell
    .\AddSub.exe
    ```
+
+## Simple Steps
+1. Run this command
+   .\make AddSub
+   *No need to put to  extension*
 
 ## Notes
 
