@@ -42,6 +42,21 @@ main PROC
 
     call DumpRegs
 
+
+    ;-----------------------------
+    ; CHECKING XOR OPERATION
+    ;-----------------------------
+    mov eax, 0
+    mov edx, 0
+
+    mov al, byte1
+    mov dl, byte2
+
+    XOR al, dl
+
+    call DumpRegs
+
+
     exit
 
 main ENDP
